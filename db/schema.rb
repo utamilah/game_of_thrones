@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20170425191528) do
     t.integer  "house_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["house_id"], name: "index_characters_on_house_id", using: :btree
   end
 
   create_table "houses", force: :cascade do |t|
@@ -31,4 +32,5 @@ ActiveRecord::Schema.define(version: 20170425191528) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "characters", "houses"
 end
