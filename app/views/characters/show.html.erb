@@ -1,0 +1,8 @@
+<p><%= link_to @character.house.name, house_path(@house) %></p>
+<h1><%= @character.name %></h1>
+<%= image_tag @character.img_url %>
+
+<p>
+<%= link_to 'Edit', edit_house_character_path(@character) %> |
+<%= link_to 'Back', house_path(@house) %>
+</p>

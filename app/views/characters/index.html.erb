@@ -1,0 +1,12 @@
+<h1>Characters</h1>
+
+  <% @characters.each do |character| %>
+      <td><%= link_to 'Show', character %></td>
+      <td><%= link_to 'Edit', edit_character_path(character) %></td>
+      <td><%= link_to 'Destroy', character, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+
+<br>
+
+<%= link_to 'New Character', new_character_path %>
