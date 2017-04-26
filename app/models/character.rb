@@ -1,3 +1,3 @@
 class Character < ApplicationRecord
-  belongs_to :house, dependent: :destroy
+  belongs_to :house
 end

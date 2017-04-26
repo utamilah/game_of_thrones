@@ -86,7 +86,7 @@ Character.create([
     },
     {
       name: "Robb Stark",
-      img_url: "https://upload.wikimedia.org/wikipedia/en/c/ce/Robb_Stark-Richard_Madden.jpg",
+      img_url: "https://vignette4.wikia.nocookie.net/gameofthrones/images/7/74/Robin_Aaryn_Book_of_Stranger.jpg/revision/latest/scale-to-width-down/309?cb=20160714005525",
       house: house_stark
     }
 ])
