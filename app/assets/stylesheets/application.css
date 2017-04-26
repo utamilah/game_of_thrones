@@ -30,6 +30,10 @@ body, h1 {
   margin: 0;
 }
 
+body {
+  background: #2C323C;
+}
+
 .top-section {
   background: url('http://i.imgur.com/LlQhba4.jpg');
   background-size: cover;
@@ -54,7 +58,6 @@ body, h1 {
     }
 
 .wrapper {
-  background: #2C323C;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
