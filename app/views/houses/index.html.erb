@@ -1,8 +1,13 @@
-<h1>Houses of Westeros</h1>
-<%= link_to 'New House', new_house_path %>
-  <div class="house">
-    <% @houses.each do |house| %>
-        <%= image_tag house.img_url %>
-        <h2><%= link_to house.name, house %> </h2>
-    <% end %>
-  </div>
+<div class="top-section">
+  <h1>Houses of Westeros</h1>
+  <%= link_to '+ Add New House', new_house_path %>
+</div>
+
+<section class="wrapper">
+  <% @houses.each do |house| %>
+    <div class="house">
+      <%= image_tag house.img_url %>
+      <h2><%= link_to house.name, house %> </h2>
+    </div>
+  <% end %>
+</section>

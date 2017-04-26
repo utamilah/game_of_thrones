@@ -26,7 +26,63 @@
    src: font-url('game_of_thrones.ttf') format("truetype");
  }
 
-h1 {
+body, h1 {
+  margin: 0;
+}
+
+.top-section {
+  background: url('http://i.imgur.com/LlQhba4.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
   font-family: "thrones", serif;
   letter-spacing: 5px;
+  padding: 40px;
+  border-bottom: 4px solid #D09A6A;
+  text-align: center;
 }
+
+.top-section h1{
+  margin-bottom: 20px;
+}
+  .top-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+    .top-section a:hover {
+      color: #D09A6A;
+    }
+
+.wrapper {
+  background: #2C323C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.house {
+  padding: 30px;
+  background: #efefef;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 10px 0 0 #181A1F;
+}
+
+.house h2 {
+  font-family: "thrones", serif;
+  font-size: 16px;
+  margin-top: 25px;
+}
+  .house a {
+    text-decoration: none;
+    color: #8A070C;
+    border-top: .5px solid #D09A6A;
+    border-bottom: .5px solid #D09A6A;
+    padding-top: 13px;
+    padding-bottom: 10px;
+  }
+    .house a:hover {
+      color: #4C090B;
+    }
